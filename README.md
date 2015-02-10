@@ -2,6 +2,10 @@
 
 Create a CSV file to manage your translations. For use with [ember-cli-i18n](https://github.com/dockyard/ember-cli-i18n).
 
+##Installation
+
+First run `npm install`
+
 ##Usage
 
 `node to-csv.js path\to\locales`
