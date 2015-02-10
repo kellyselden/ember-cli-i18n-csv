@@ -1,0 +1,17 @@
+{
+  "name": "ember-cli-i18n-csv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "to-csv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kelly Selden <kellyselden@gmail.com> (https://github.com/kellyselden)",
+  "license": "MIT",
+  "dependencies": {
+    "6to5": "^3.5.3",
+    "csv-parse": "0.0.6",
+    "csv-stringify": "0.0.6",
+    "path": "^0.11.14"
+  }
+}
