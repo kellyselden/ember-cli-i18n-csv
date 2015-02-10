@@ -4,8 +4,10 @@ Create a CSV file to manage your translations. For use with [ember-cli-i18n](htt
 
 ##Usage
 
-create csv
 `node to-csv.js path\to\locales`
 
-recreate locale files
+This creates a file named `i18n.csv` in your working dir. You can send it out to your translators. When you get it back, replace it with the old one and run the following command.
+
 `node to-js.js path\to\locales`
+
+This will update your locale js files with the new translations.
