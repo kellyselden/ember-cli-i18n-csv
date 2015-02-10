@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-i18n-csv",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create a CSV file to manage your translations",
   "main": "to-csv.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
