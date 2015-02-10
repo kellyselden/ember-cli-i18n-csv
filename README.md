@@ -4,6 +4,8 @@ Create a CSV file to manage your translations. For use with [ember-cli-i18n](htt
 
 ##Installation
 
+Depends on node version 0.12.0 for `path.isAbsolute`
+
 First run `npm install`
 
 ##Usage
