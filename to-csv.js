@@ -45,8 +45,11 @@ function recurse(json, columnIndex, rowIndex, currentKey) {
 
 for (var columnIndex in locales) {
   var locale = locales[columnIndex];
-  var fileName = path.join(localesPath, locale);
-  var json = require('./' + fileName);
+  var filePath = path.join(localesPath, locale);
+  if (!path.isAbsolute(filePath)) {
+    filePath = './' + filePath;
+  }
+  var json = require(filePath);
   recurse(json, columnIndex, 0, '');
 }
 

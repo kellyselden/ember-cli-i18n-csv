@@ -39,9 +39,9 @@ parse(csv, function(err, lines) {
 
   for (var columnIndex in locales) {
     var locale = locales[columnIndex];
-    var fileName = path.join(localesPath, locale + '.js');
+    var filePath = path.join(localesPath, locale + '.js');
     var jsonString = JSON.stringify(objs[columnIndex], null, 2);
     var string = 'export default ' + jsonString + ';\n';
-    fs.writeFileSync(fileName, string, 'utf8');
+    fs.writeFileSync(filePath, string, 'utf8');
   }
 });
